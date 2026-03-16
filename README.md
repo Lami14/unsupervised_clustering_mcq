@@ -1,37 +1,41 @@
-# Mall Customers Clustering Analysis
+# Unsupervised Clustering MCQ: Customer Segmentation
 
-## Project Overview
-This project performs customer segmentation using **K-Means** and **Hierarchical Clustering**.  
-The goal is to group customers based on their **Annual Income** and **Spending Score**, which can help in **targeted marketing** and understanding customer behavior.
+**Author:** Lami14  
+**Repository:** [unsupervised_clustering_mcq](https://github.com/Lami14/unsupervised_clustering_mcq)  
+**Date:** March 2026  
 
-## Dataset
-The dataset contains:
+---
 
-- CustomerID
-- Gender
-- Age
-- Annual_Income_(k$)
-- Spending_Score (1-50)
+## 📖 Project Overview
 
-Source: [ExploreAI Public Dataset](https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/unsupervised_sprint/mall_customers.csv)
+This project implements **unsupervised learning techniques** to segment mall customers based on **Annual Income** and **Spending Score**. The goal is to identify distinct customer groups with similar spending behaviors and income levels, which can help in **targeted marketing**, **customer retention**, and **business strategy optimization**.
 
-## Methodology
-1. **Data Cleaning & Preprocessing**
-2. **Exploratory Data Analysis (EDA)**
-3. **Scaling features**
-4. **K-Means Clustering**
-5. **Elbow Method for Optimal K**
-6. **Silhouette Score Evaluation**
-7. **Hierarchical Clustering**
-8. **Cluster Characterization**
+We explore two primary clustering methods:
 
-## Results
-- Elbow Plot: ![elbow_plot](results/elbow_plot.png)
-- Silhouette Analysis: ![silhouette_plot](results/silhouette_plot.png)
-- Dendrogram: ![dendrogram](results/dendrogram.png)
-- Cluster Scatter Plot: ![cluster_scatter](results/cluster_scatter.png)
+- **K-Means Clustering** – for partitioning customers into a predefined number of clusters.  
+- **Hierarchical Clustering (Agglomerative)** – for creating a hierarchical tree of clusters without predefining the number of clusters.
 
-## Usage
-1. Clone the repo
-```bash
-git clone https://github.com/Lami14/unsupervised_clustering_mcq.git
+The project also includes:
+
+- Exploratory Data Analysis (EDA)  
+- Feature scaling  
+- Cluster evaluation using **Silhouette Score** and **Davies-Bouldin Index**  
+- Visualizations: scatter plots, elbow plots, and dendrograms  
+
+---
+
+## 🎯 Learning Objectives
+
+By the end of this project, you should be able to:
+
+1. Perform exploratory data analysis on customer datasets.  
+2. Scale numerical features to prepare data for clustering.  
+3. Apply **K-Means Clustering** and interpret the cluster centroids.  
+4. Determine the **optimal number of clusters** using the Elbow Method and Silhouette Score.  
+5. Apply **Agglomerative Hierarchical Clustering** and interpret dendrograms.  
+6. Evaluate clustering quality with Silhouette Score and Davies-Bouldin Index.  
+7. Understand practical interpretations of different customer clusters.
+
+---
+
+## 📂 Repository Structure
